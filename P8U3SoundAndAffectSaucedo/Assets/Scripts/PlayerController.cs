@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     public float gravityModifier;
     public bool isOnGround = true;
 
-    public bool gameover = false;
+    public bool gameOver;
 
 
 
@@ -37,10 +37,11 @@ public class PlayerController : MonoBehaviour
         {
             isOnGround = true;
         }
-        else if (collision.gameObject.CompareTag("Obstacle")) 
+        else if (collision.gameObject.CompareTag("Obstacle"))
         {
-            gameover = true;
+
             Debug.Log("Game Over!");
+            gameOver = true;
         }
 
 
