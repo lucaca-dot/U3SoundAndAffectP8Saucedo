@@ -145,7 +145,7 @@ GameObject:
   - component: {fileID: 547319563227164376}
   - component: {fileID: 2513933393036969490}
   m_Layer: 0
-  m_Name: Obstacle
+  m_Name: FenceObstacle
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
